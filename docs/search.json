@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nAbout Me\r\nI’m Anmay Gupta, a rising sophomore at James B. Conant Highschool, graduating in 2023.\r\nAbout the Project\r\nTutorial Project\r\nThis is a project about the tutorial and completing the tutorial.\r\nGoals\r\nTo complete the tutorial\r\nTo create a new site for my actual final project\r\nBecause this one kinda sucks and it’s easier to create a new one.\r\nThis is because I’m going to be trying to do cool things on the new one so this one acts as a test.\r\n\r\n“This is data science”\r\nPreceptor\r\n\r\nKane’s Free High School Data Science Bootcamp\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-20T19:34:54-05:00"
+      "last_modified": "2021-06-20T19:45:17-05:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,35 @@
       "description": "This is where I will describe my final project.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-20T19:34:56-05:00"
+      "last_modified": "2021-06-20T19:45:20-05:00"
+    },
+    {
+      "path": "source_A.html",
+      "title": "Source A",
+      "description": "Detailed notes for Source A\n",
+      "author": [
+        {
+          "name": "Anmay Gupta",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-20T19:45:20-05:00"
+    },
+    {
+      "path": "source_B.html",
+      "title": "Source B",
+      "description": "Detailed notes for Source B\n",
+      "author": [
+        {
+          "name": "Anmay Gupta",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-20T19:45:20-05:00"
     }
   ],
   "collections": []

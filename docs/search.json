@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-20T19:20:10-05:00"
+      "contents": "\r\nAbout Me\r\nI’m Anmay Gupta, a rising sophomore at James B. Conant Highschool, graduating in 2023.\r\nAbout the Project\r\nTutorial Project\r\nThis is a project about the tutorial and completing the tutorial.\r\nGoals\r\nTo complete the tutorial\r\nTo create a new site for my actual final project\r\nBecause this one kinda sucks and it’s easier to create a new one.\r\nThis is because I’m going to be trying to do cool things on the new one so this one acts as a test.\r\n\r\n“This is data science”\r\nPreceptor\r\n\r\nKane’s Free High School Data Science Bootcamp\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-20T19:34:54-05:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "This is where I will describe my final project.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-20T19:20:12-05:00"
+      "last_modified": "2021-06-20T19:34:56-05:00"
     }
   ],
   "collections": []

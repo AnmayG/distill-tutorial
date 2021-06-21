@@ -8,3 +8,24 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+
+**I'm Anmay Gupta, a rising sophomore at James B. Conant Highschool, graduating in 2023.**
+
+## About the Project
+
+*Tutorial Project*
+
+This is a project about the tutorial and completing the tutorial.
+
+### Goals
+
+* To complete the tutorial
+* To create a new site for my actual final project
+* Because this one kinda sucks and it's easier to create a new one.
+  + This is because I'm going to be trying to do cool things on the new one so this one acts as a test.
+
+"This is data science"  
+~ Preceptor
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info/)

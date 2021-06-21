@@ -27,8 +27,8 @@
         }
       ],
       "date": "`r Sys.Date()`",
-      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-20T19:45:20-05:00"
+      "contents": "\r\n“Source A was Primer.data. It was flawless.” (Kane 2020)\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n(Jones 2018)\r\n\r\n\r\n\r\nJones, Nora. 2018. “Distill for r Markdown.” Journal of Data Science Software. https://doi.org/10.23915/distill.00010.\r\n\r\n\r\nKane, David. 2020. Primer.data.\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-20T20:20:24-05:00"
     },
     {
       "path": "source_B.html",

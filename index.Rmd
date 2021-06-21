@@ -16,19 +16,41 @@ knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
 library(ggthemes)
+library(knitr)
+library(rmarkdown)
+library(gt)
 ```
 
 ```{r car-plot}
-mtcars %>%
-  select(mpg, wt) %>%
-  ggplot(aes(x = wt, y = mpg)) +
-    geom_point() +
-    geom_smooth(method = "lm", formula = "y ~ x", se = FALSE) +
-    theme_clean() +
-    labs(title = "Miles Per Gallon of Various Cars Compare to Their Weight",
-         subtitle = "Heavier cars are less efficient when it comes to fuel use.",
-         x = "Weight",
-         y = "Miles per Gallon",
-         caption = "Source: Henderson and Vellerman (1981)")
+car_plot <- read_rds("car-plot.rds")
+car_plot
+ggsave("car-plot.png", plot = car_plot)
 ```
+
+```{r table-1}
+table <- mtcars %>%
+           arrange(mpg)
+```
+
+```{r table-2}
+kable(table)
+```
+
+```{r table-3, layout = "l-body-outset"}
+paged_table(table, options(cols.print = 12))
+```
+```{r table-4}
+gt(table, rownames_to_stub = TRUE) %>%
+  tab_header(title = md("**1974 Automobiles**"),
+             subtitle = "The least fuel efficient cars are the heaviest.") %>%
+  tab_source_note("Source: Henderson and Velleman (1981)") %>%
+  tab_spanner(label = "Variable Group 1", 
+              columns = c(mpg, cyl, disp, hp, drat))
+```
+
+```{r image}
+include_graphics("images/car-plot.png")
+```
+
+
 
